@@ -2,7 +2,7 @@
     background-color: whitesmoke;
     list-style-type: none;
     padding: 0;
-    border: 0;
+    border-radius: 0;
 }
 
 .form-row {
@@ -15,6 +15,16 @@
     flex: 1;
 }
 
-.form-row > label {
+.form-row  button {
+    border: 0;
+    background-color: grey;
+    color: white;
+}
+.form-row input,
+.form-row button {
     padding: .5em;
+}
+
+.form-row label {
+    padding: .5em 1em .5em 0;
 }
