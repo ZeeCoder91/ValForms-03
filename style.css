@@ -1,8 +1,8 @@
 .wrapper {
     background-color: whitesmoke;
+    border-radius: 3px;
     list-style-type: none;
     padding: 0;
-    border-radius: 0;
 }
 
 .form-row {
@@ -11,20 +11,21 @@
     padding: .5em;
 }
 
+.form-row label {
+    padding: .5em 1em .5em 0;
+}
+
 .form-row input {
     flex: 1;
 }
 
-.form-row  button {
-    border: 0;
-    background-color: grey;
-    color: white;
-}
 .form-row input,
 .form-row button {
     padding: .5em;
 }
 
-.form-row label {
-    padding: .5em 1em .5em 0;
+.form-row button {
+    border: 0;
+    background-color: grey;
+    color: white;
 }
