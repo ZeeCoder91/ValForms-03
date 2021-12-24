@@ -11,12 +11,12 @@
     padding: .5em;
 }
 
-.form-row label {
-    padding: .5em 1em .5em 0;
-}
-
 .form-row input {
     flex: 1;
+}
+
+.form-row label {
+    padding: .5em 1em .5em 0;
 }
 
 .form-row input,
@@ -25,7 +25,7 @@
 }
 
 .form-row button {
+    background-color: teal;
     border: 0;
-    background-color: grey;
     color: white;
 }
