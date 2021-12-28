@@ -1,6 +1,7 @@
 .wrapper {
-    background-color: cadetblue;
+    background-color: cornflowerblue;
     border-radius: 3px;
+    color: white;
     list-style-type: none;
     padding: 0;
 }
@@ -13,18 +14,19 @@
 
 .form-row > label {
     padding: .5em 1em .5em 0;
-}
-
-.form-row > input {
     flex: 1;
 }
+.form-row > input {
+    flex: 2
+}
 
-.form-row > input,
+.form-row > input, 
 .form-row > button {
     padding: .5em;
 }
 
 .form-row > button {
     border: 0;
-    
+    background-color: white;
+    color: cornflowerblue;
 }
