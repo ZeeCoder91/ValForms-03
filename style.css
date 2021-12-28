@@ -18,3 +18,16 @@
 .form-row input {
     flex: 1;
 }
+
+.form-row input,
+.form-row button {
+    padding: .5em;
+}
+
+.form-row button {
+    background-color: brown;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+
+}
