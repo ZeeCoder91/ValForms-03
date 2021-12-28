@@ -1,0 +1,20 @@
+.wrapper {
+    border-radius: 3px;
+    background-color: teal;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+}
+.form-row > label {
+    padding: .5em 1em .5em 0;
+}
+
+.form-row input {
+    flex: 1;
+}
