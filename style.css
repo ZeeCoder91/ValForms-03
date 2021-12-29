@@ -8,3 +8,18 @@
     border-radius: 3px;
     padding: 1.8em;
 }
+
+.message {
+    margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.message > textarea {
+    flex: 1;
+    min-width: 18em;
+}
+
+.contact {
+    flex: 1;
+}
