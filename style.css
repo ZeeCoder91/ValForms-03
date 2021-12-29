@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+.myForm {
+    background-color: wheat;
+    border-radius: 3px;
+    display: flex;
+    padding: 1.8em;  
+}
+
+.message {
+    flex: 1;
+    min-width: 18em;
+}
