@@ -18,3 +18,17 @@
     flex: 1;
     min-width: 18em;
 }
+
+.contact {
+    flex: 1;
+}
+
+.contact input {
+    width: 100%;
+}
+
+.contact input,
+.contact button {
+    padding: 1em;
+    margin-bottom: 1em;
+}
