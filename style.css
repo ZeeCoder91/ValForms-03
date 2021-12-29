@@ -17,7 +17,7 @@
 }
 
 .form-row input {
-    flex: 3
+    flex: 2;
 }
 
 .form-row > button {
