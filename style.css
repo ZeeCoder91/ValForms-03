@@ -1,5 +1,6 @@
 .wrapper {
-    background-color: coral;
+    background-color: darkslateblue;
+    border-radius: 3px;
     color: white;
     list-style-type: none;
     padding: 0;
@@ -22,13 +23,11 @@
 
 .form-row > button {
     border: 0;
-    background-color: chocolate;
-    color: white;
-    
+    background-color: white;
+    color: darkslateblue;
 }
 
-.form-row > input,
+.form-row > input, 
 .form-row > button {
     padding: .5em;
 }
-
