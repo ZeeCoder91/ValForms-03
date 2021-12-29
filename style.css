@@ -23,3 +23,19 @@
 .contact {
     flex: 1;
 }
+
+.contact input {
+    width: 100%;
+}
+
+.contact input,
+.contact button {
+    padding: 1em;
+    margin-bottom: 1em ;
+}
+
+.contact button {
+    border: 0;
+    background-color: grey;
+    color: white;
+}
