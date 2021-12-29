@@ -3,28 +3,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Validation Form</title>
 </head>
 <body>
-    <form>
+    <Form>
         <ul class="wrapper">
-            <li class="form-row">
-                <label for="name">Name</label>
-                <input type="text" id="name">
-            </li>
-            <li class="form-row">
-                <label for="townborn">Town you were born in</label>
-                <input type="text" id="townborn">
-            </li>
-            <li class="form-row">
-                <label for="email">Email Address</label>
-                <input type="email" id="email">
-            </li>
-            <li class="form-row">
-                <button class="submit">Submit</button>
-            </li>
+            
+            <div class="form-column">
+                <li class="form-row">
+                    <label for="message">Message</label>
+                    <input type="text" id="message">
+                </li>
+            </div>
+
+            <div class="form-column">
+                <li class="form-row">
+                    <label for="Name">Name</label>
+                    <input type="text" id="name">
+                </li>
+                <li class="form-row">
+                    <label for="townborn">Town you were born in</label>
+                    <input type="text" id="townborn">
+                </li>
+                <li class="form-row">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email">
+                </li>
+                <li class="form-row">
+                    <button class="submit">Submit</button>
+                </li>
+            </div>
         </ul>
-    </form>
+    </Form>
+    
 </body>
 </html>
