@@ -1,31 +1,53 @@
+
 .wrapper {
-    background-color: deepskyblue;
-    border-radius: 3px;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
     list-style-type: none;
     padding: 0;
 }
 
-.form-row {
+* {
+    box-sizing: border-box;
+}
+.form-column {
+    padding: .8em;
+}
+
+.form-row-left,
+.form-row-right {
     display: flex;
-    justify-content: flex-end;
-    padding: .5em;
+    flex-direction: column;
 }
 
-.form-row > label {
-    padding: .5em 1em .5em 0;
-    flex: 1;
+.form-row-left {
+    padding: 0 1em 0em 1em;
 }
 
-.form-row > input {
+.form-row-left > input {
+    padding: 5em .7em 14em 0;
+}
+.form-row-right > input {
+    padding: 1em 2em 1em 4em;
+    margin-right: .5em;
+    margin-bottom: .9em;
+}
+
+.two {
     flex: 2;
 }
 
-.form-row input, 
-.form-row button {
-    padding: .5em;
+li > button {
+    border: 0;
+    background-color: grey;
+    color: white;
+    padding: 1em .9em;
 }
 
-.form-row button {
-    border: 0;
-    background-color: white;
+@media screen and (max-wdith: 575px) {
+    label {
+        display: flex;
+        flex: column;
+    }
+    
 }
