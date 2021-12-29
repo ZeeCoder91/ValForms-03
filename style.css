@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+.myForm {
+    display: flex;
+    background-color: honeydew;
+    border-radius: 3px;
+    padding: 1.8em;
+}
