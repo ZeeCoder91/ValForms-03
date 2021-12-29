@@ -1,0 +1,34 @@
+.wrapper {
+    background-color: coral;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+}
+
+.form-row > label {
+    flex: 1;
+    padding: .5em 1em .5em 0;
+}
+
+.form-row > input {
+    flex: 2;
+}
+
+.form-row > button {
+    border: 0;
+    background-color: chocolate;
+    color: white;
+    
+}
+
+.form-row > input,
+.form-row > button {
+    padding: .5em;
+}
+
